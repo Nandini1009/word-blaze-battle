@@ -57,10 +57,10 @@ var score=0
 			        elem.slideDown(function(){
 			            $(this).html(words[i=(i+1)%words.length]).animate({
 			            	top:'100%'
-			            }, 55000);
+			            }, 15000);
 			        })
 			        var position = $('span').position()
-				    if(position.top > 280){
+				    if(position.top > 1200){
 				    	$('.gameover').fadeIn();
 				    }
 

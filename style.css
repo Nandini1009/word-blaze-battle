@@ -1,9 +1,10 @@
 .wrapper{
-		height: 400px;
-    	width: 410px;
+		height: 100vh;
+    	width: auto;
     	position: relative;
     	margin: 0 auto;
     	background-image: url('2.png');
+    	background-size: cover;
 /*    	background-repeat: no-repeat;
 */	}
 	a.replay {
@@ -32,8 +33,8 @@
 	}
 
      .wordsscreen{
- 	    height: 300px;
-	    width: 400px;
+ 	    height: 100vh;
+	    width: 100%;
 	    position: relative;
 /*	    border: 1px solid #ccc;
 */	    float: left;
@@ -43,6 +44,8 @@
      .error{display: none;}
      .clear{clear:both;}
      .clear input{ 
+     	bottom: 0;
+    position: absolute;
         font-size: 20px;
 	    width: -webkit-fill-available;
 	    height: 40px;
