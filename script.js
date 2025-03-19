@@ -60,7 +60,7 @@ var score=0
 			            }, 15000);
 			        })
 			        var position = $('span').position()
-				    if(position.top > 1200){
+				    if(position.top > 1300){
 				    	$('.gameover').fadeIn();
 				    }
 
